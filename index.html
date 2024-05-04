@@ -13,11 +13,9 @@
 
 <script>
 
-    var HOME_PATH = window.HOME_PATH || '.',
-        urlPrefix = HOME_PATH +'/data/region',
-        urlSuffix = '.json',
-        regionGeoJson = [],
-        loadCount = 0;
+    var HOME_PATH =  HOME_PATH = 'https://navermaps.github.io/maps.js/docs',
+                            urlPrefix = HOME_PATH +'/data/region',
+                            urlSuffix = '.json',
 
     var map = new naver.maps.Map(document.getElementById('map'), {
         zoom: 7,
